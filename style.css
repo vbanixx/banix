@@ -1,0 +1,153 @@
+
+        body {
+            background:url("https://wallpaperbat.com/img/632439-nature-night-hd-wallpaper.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: rgb(4, 54, 21);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        h2 {
+            color: rgb(221, 221, 221);
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #898989;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: rgb(238, 16, 16);
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: rgba(70, 152, 87, 0.553);
+        }
+        
+        .content-section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .color-box {
+            background-color: #e0f7fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* Selectors Examples */
+        .title {
+            font-weight: bold;
+            color: rgb(235, 243, 237);
+        }
+        
+        #intro {
+            font-style: italic;
+            color: rgb(241, 248, 243);
+        }
+        
+        /* Font and Text Styling */
+        .text-styling {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            color: #14ff3b;
+        }
+        
+        /* Box Model */
+        .box-model {
+            width: 300px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 20px auto;
+            background-color: white;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .box-model img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .container {
+            display:center;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+        }
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(221, 26, 26);
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            nav {
+                flex-direction: center;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            .box-model {
+                width: 90%;
+                padding: 10px;
+            }
+        }
